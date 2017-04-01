@@ -11,6 +11,7 @@ imionaStudentow[2] = "Przemek";
 console.log(imiona);
 console.log(imionaStudentow);
 console.log(imionaChlopakow);
+console.log(imionaChlopakow[2]); //zwraca trzecie imie z tablicy imiona chlopakow tj. Krzysiek
 
 var wiek = [];
 var wiekStudentow = [20, 25, 28];

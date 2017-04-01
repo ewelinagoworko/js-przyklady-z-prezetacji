@@ -64,3 +64,4 @@ var nullowaZmienna = null;
 
 console.log(niezdefiniowanaZmienna);
 console.log(nullowaZmienna);
+
