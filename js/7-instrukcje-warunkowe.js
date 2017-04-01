@@ -1,6 +1,6 @@
 'use strict';
 
-var wzrostMateusz = 200;
+var wzrostMateusz = 190;
 var wzrostKaja = 190;
 
 
@@ -31,4 +31,23 @@ if ( wzrostKaja > wzrostMateusz) {
 } else {
 	
 	console.log("Kaja jest niższa");
+}
+
+
+// warunek switch
+
+var kolor = "bialy";
+
+switch (kolor) {
+	case "czerowny":
+		console.log('Kolor czerowny')
+		break;
+	case 'zielony':
+		console.log('Kolor zielony')
+		break;
+	case 'niebieski':
+		console.log('Kolor niebieski')
+		break;
+	default:
+		console.log('Inny kolor')
 }
