@@ -47,7 +47,7 @@ for ( var i=0; i<liczba.length; i++) {
 }
 		
 	
-
+if (i == 10) break; //warunek przerywajacy
 
 
 
