@@ -16,3 +16,31 @@ kaja.przedstawOsobe();
 krystian.przedstawOsobe();
 
 console.log(kaja.wzrost);
+console.log(krystian.wzrost);
+
+kaja.wiek = 15;
+console.log(kaja.wiek);
+console.log(kaja);
+
+function Osoba(imie, nazwisko) {
+	this.imie = imie;
+	this.nazwisko = nazwisko;
+	this.wzrost;
+	this.oczy;
+	this.wyswietlInfo = function() {
+		console.log ( "Imię: " + this.imie + "\n"
+					+ "Nazwisko: " + this.nazwisko + "\n" 
+					+ "Wzrost: " + this.wzrost + "\n"
+					+ "Oczy: " + this.oczy);
+	}
+}
+
+var krystian = new Osoba('Krystian', 'Dziopa');
+
+krystian.wzrost = 180;
+krystian.oczy = 'niebieskie';
+
+krystian.wyswietlInfo();
+
+var kaja = new Osoba('Kaja', 'Stefaniuk');
+kaja.wyswietlInfo();
